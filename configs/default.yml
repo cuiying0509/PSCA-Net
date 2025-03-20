@@ -1,0 +1,14 @@
+N: 1000
+L: 100
+M: 16
+R: 200
+alpha: -2
+#c: # log(p/(1-p))
+#  - -2.197
+num_layer: 10
+batch_size_train: 64
+batch_size_val: 256
+batch_size_test: 256
+epochs: 100
+learning_rate: 0.002
+optimizer: Adam
